@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CicekSepeti" parallel="none">
+
+  <parameter name="cicekURL" value="https://www.ciceksepeti.com/bireysel-uyelik"></parameter> 
+
+	<test name="Test FF"> <!-- FF Test -->
+		<parameter name="browser" value="FF"></parameter>
+		<classes>
+			<class name="com.erol.cicek.YeniBireyselUyelikTest" />
+		</classes>
+	</test> <!-- FF Test -->
+</suite> <!-- Suite -->

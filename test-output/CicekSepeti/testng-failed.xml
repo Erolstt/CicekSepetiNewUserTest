@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CicekSepeti]" parallel="none">
+  <parameter name="browser" value="FF"/>
+  <parameter name="cicekURL" value="https://www.ciceksepeti.com/bireysel-uyelik"/>
+  <test name="Test FF(failed)" parallel="none">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="com.erol.cicek.YeniBireyselUyelikTest">
+        <methods>
+          <include name="setEnv"/>
+          <include name="BireyselUyelikTest"/>
+        </methods>
+      </class> <!-- com.erol.cicek.YeniBireyselUyelikTest -->
+    </classes>
+  </test> <!-- Test FF(failed) -->
+</suite> <!-- Failed suite [CicekSepeti] -->
